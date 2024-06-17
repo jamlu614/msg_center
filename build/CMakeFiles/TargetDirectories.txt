@@ -1,0 +1,3 @@
+/user_space/rtcpush/msg_center/build/CMakeFiles/rebuild_cache.dir
+/user_space/rtcpush/msg_center/build/CMakeFiles/edit_cache.dir
+/user_space/rtcpush/msg_center/build/CMakeFiles/msg_center.dir

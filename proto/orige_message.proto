@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+/* ip:待定, port:1883 topic: pci_robot/event
+* 发送端: 先使用protobuf序列化, 再使用mqtt发布消息 
+* 接收端: 先使用mqtt订阅消息, 再使用protobuf反序列化
+*/
+
+message PciRobotEvent {
+  string equipmentName = 1;     //设备名称
+  string messageId = 2;          // 唯一的消息id，可使用uuid
+  uint64 timestamp = 3;          // 时间戳UTC，单位毫秒
+  int32 eventType = 4;           // 事件类型代表不同的算法类型
+  int32 stateType = 5;            // 0:S1, 1:S2, 2:S3, 3:S4, 4:S5, 5:S6. S1-s6对应机器人不同状态
+}
+

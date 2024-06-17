@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/user_space/rtcpush/msg_center/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++   -I/user_space/rtcpush/msg_center/metro -I/user_space/rtcpush/msg_center/proto -I/usr/include/eigen3  -g   -std=gnu++17 -o CMakeFiles/msg_center.dir/main.cpp.o -c /user_space/rtcpush/msg_center/main.cpp",
+  "file": "/user_space/rtcpush/msg_center/main.cpp"
+},
+{
+  "directory": "/user_space/rtcpush/msg_center/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++   -I/user_space/rtcpush/msg_center/metro -I/user_space/rtcpush/msg_center/proto -I/usr/include/eigen3  -g   -std=gnu++17 -o CMakeFiles/msg_center.dir/proto/Approbot.pb.cc.o -c /user_space/rtcpush/msg_center/proto/Approbot.pb.cc",
+  "file": "/user_space/rtcpush/msg_center/proto/Approbot.pb.cc"
+},
+{
+  "directory": "/user_space/rtcpush/msg_center/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++   -I/user_space/rtcpush/msg_center/metro -I/user_space/rtcpush/msg_center/proto -I/usr/include/eigen3  -g   -std=gnu++17 -o CMakeFiles/msg_center.dir/proto/geometry_msgs.pb.cc.o -c /user_space/rtcpush/msg_center/proto/geometry_msgs.pb.cc",
+  "file": "/user_space/rtcpush/msg_center/proto/geometry_msgs.pb.cc"
+},
+{
+  "directory": "/user_space/rtcpush/msg_center/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++   -I/user_space/rtcpush/msg_center/metro -I/user_space/rtcpush/msg_center/proto -I/usr/include/eigen3  -g   -std=gnu++17 -o CMakeFiles/msg_center.dir/proto/orige_message.pb.cc.o -c /user_space/rtcpush/msg_center/proto/orige_message.pb.cc",
+  "file": "/user_space/rtcpush/msg_center/proto/orige_message.pb.cc"
+},
+{
+  "directory": "/user_space/rtcpush/msg_center/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++   -I/user_space/rtcpush/msg_center/metro -I/user_space/rtcpush/msg_center/proto -I/usr/include/eigen3  -g   -std=gnu++17 -o CMakeFiles/msg_center.dir/proto/robot_base_msgs.pb.cc.o -c /user_space/rtcpush/msg_center/proto/robot_base_msgs.pb.cc",
+  "file": "/user_space/rtcpush/msg_center/proto/robot_base_msgs.pb.cc"
+},
+{
+  "directory": "/user_space/rtcpush/msg_center/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++   -I/user_space/rtcpush/msg_center/metro -I/user_space/rtcpush/msg_center/proto -I/usr/include/eigen3  -g   -std=gnu++17 -o CMakeFiles/msg_center.dir/proto/std_msgs.pb.cc.o -c /user_space/rtcpush/msg_center/proto/std_msgs.pb.cc",
+  "file": "/user_space/rtcpush/msg_center/proto/std_msgs.pb.cc"
+}
+]
